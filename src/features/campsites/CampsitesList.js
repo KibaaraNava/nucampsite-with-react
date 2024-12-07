@@ -10,9 +10,9 @@ const CampsitesList = ({setCampsiteId}) => {
             {CAMPSITES.map((campsite) => {
                         return (
                             <Col md='5'
-                            className='m-4'
-                            key={campsite.id}
-                            onClick={() => setCampsiteId(campsite.id)}>
+                                className='m-4'
+                                key={campsite.id}
+                            >
                                 <CampsiteCard campsite={campsite} />
                             </Col>
                         );
