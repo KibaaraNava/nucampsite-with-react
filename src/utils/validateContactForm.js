@@ -14,7 +14,7 @@ export const validateContactForm = (values) => {
     } else if(values.lastName.length < 2) {
         errors.lastName = "Must be atleast 2 characters.";
     } else if(values.lastName.length > 15) {
-        errors.lastName= "Must be 15 characters or less."
+        errors.lastName= "Must be 15 characters or less.";
     }
 
     const reg = /^\d+$/;
